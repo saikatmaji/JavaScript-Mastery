@@ -7,4 +7,4 @@ A structured journey to learn and master JavaScript from fundamentals to advance
 ## 📚 What I'm Learning
 
 ### JavaScript Basics
-- Day 01 – Introduction to JavaScript – [Source Code](./Day-01-Introduction)
+- Day 01 – Introduction to JavaScript – [Source Code](./Day-01-Introduction/README.md)
