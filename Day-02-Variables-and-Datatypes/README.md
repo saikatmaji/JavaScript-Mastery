@@ -5,3 +5,5 @@
 - ✅ What is Variable?
 - ✅ How to visialize variables?
 - ✅ How Variables get stored?
+- ✅ JavaScript Data Types
+- ✅ How JavaScript sees code?
