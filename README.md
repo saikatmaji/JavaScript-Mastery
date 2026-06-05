@@ -8,4 +8,4 @@ A structured journey to learn and master JavaScript from fundamentals to advance
 
 ### JavaScript Basics
 - Day 01 – Introduction to JavaScript – [Source Code](./Day-01-Introduction/README.md)
-- Day 02 – Variable and Datatypes – [Source Code](./Day-02-Variables-and-Datatypes/README.md)
+- Day 02 – Variables and Datatypes – [Source Code](./Day-02-Variables-and-Datatypes/README.md)
