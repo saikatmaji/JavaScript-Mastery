@@ -6,3 +6,5 @@
 - ✅ Declaring variables and assigning values.
 - ✅ Difference between let, var, and const.
 - ✅ Re-declaration and Re-assignment rules.
+- ✅ Global Scope, Function Scope, and Block Scope.
+- ✅ Understanding Primitive Data Types.
