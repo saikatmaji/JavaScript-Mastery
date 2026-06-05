@@ -12,3 +12,5 @@
 - ✅ Using typeof operator to check data types.
 - ✅ Primitive Data Types are Immutable.
 - ✅ Non-Primitive Data Types are Mutable.
+- ✅ Pass by Value vs Pass by Reference.
+- ✅ How JavaScript stores Primitive and Non-Primitive values in memory.
