@@ -8,3 +8,5 @@
 - ✅ Re-declaration and Re-assignment rules.
 - ✅ Global Scope, Function Scope, and Block Scope.
 - ✅ Understanding Primitive Data Types.
+- ✅ Understanding Non-Primitive Data Types.
+- ✅ Using typeof operator to check data types.
