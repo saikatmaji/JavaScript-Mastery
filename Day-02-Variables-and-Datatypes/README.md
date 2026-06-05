@@ -10,3 +10,5 @@
 - ✅ Understanding Primitive Data Types.
 - ✅ Understanding Non-Primitive Data Types.
 - ✅ Using typeof operator to check data types.
+- ✅ Primitive Data Types are Immutable.
+- ✅ Non-Primitive Data Types are Mutable.
