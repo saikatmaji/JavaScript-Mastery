@@ -1,6 +1,6 @@
 // Variables
 
-// variable declaration with const keyword
+// ***variable declaration with const keyword
 const account = 1234;
 
 // account = 5678; // const => re-declare ❌ | re-assign ❌
@@ -14,3 +14,22 @@ if(true){
 }
 
 // console.log(a); // ReferenceError
+
+
+
+
+// ***variable declaration with let keyword
+let name = "Saikat";
+let age = 23;
+
+age = 25; // let => re-declare ❌ | re-assign ✅
+
+console.log(name, age);
+
+
+// let => Global Scope ✅, Function Scope ✅, Block Scope ✅
+if(true){
+    // let b = 20;
+}
+
+// console.log(b); // ReferenceError
