@@ -43,3 +43,16 @@ var city = "Kolkata";
 var city = "Bengaluru"; // var => re-declare ✅ | re-assign ✅
 
 console.log(city);
+
+
+// var => Global Scope ✅, Function Scope ✅, Block Scope ❌
+if(true){
+    var c = 20;
+}
+
+console.log(c); // 20
+
+
+
+
+// ******************************************************************************************************
