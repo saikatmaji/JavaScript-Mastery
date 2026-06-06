@@ -33,3 +33,13 @@ if(true){
 }
 
 // console.log(b); // ReferenceError
+
+
+
+
+// ***variable declaration with var keyword
+var city = "Kolkata";
+
+var city = "Bengaluru"; // var => re-declare ✅ | re-assign ✅
+
+console.log(city);
