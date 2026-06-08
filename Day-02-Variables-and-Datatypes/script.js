@@ -87,3 +87,13 @@ let f = false
 console.log(isLoggedIn, f);
 
 // console.log(typeof isLoggedIn); // boolean
+
+
+// undefined
+let user;
+console.log(user);
+
+// const p; // const must be initialized during declaration
+// console.log(p); // SyntaxError
+
+// console.log(typeof user); // undefined
