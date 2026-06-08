@@ -97,3 +97,10 @@ console.log(user);
 // console.log(p); // SyntaxError
 
 // console.log(typeof user); // undefined
+
+
+// bigint
+let num = 238584875765645356n;
+console.log(num);
+
+// console.log(typeof num); // bigint
