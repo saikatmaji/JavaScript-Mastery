@@ -111,3 +111,10 @@ let weather = null;
 console.log(weather);
 
 // console.log(typeof weather); // object
+
+
+// symbol
+const id1 = Symbol("id");
+console.log(id1);
+
+// console.log(typeof id1); // symbol
