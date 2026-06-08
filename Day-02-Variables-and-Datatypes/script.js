@@ -71,3 +71,11 @@ let b1 = 2.36;
 console.log(a1, b1);
 
 // console.log(typeof a1); // number
+
+
+// string
+let c1 = "Saikat";
+let d1 = "BCREC";
+console.log(c1, d1);
+
+// console.log(typeof c1); // string
