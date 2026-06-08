@@ -79,3 +79,11 @@ let d1 = "BCREC";
 console.log(c1, d1);
 
 // console.log(typeof c1); // string
+
+
+// boolean
+let isLoggedIn = true;
+let f = false
+console.log(isLoggedIn, f);
+
+// console.log(typeof isLoggedIn); // boolean
