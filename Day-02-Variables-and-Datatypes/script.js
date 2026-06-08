@@ -104,3 +104,10 @@ let num = 238584875765645356n;
 console.log(num);
 
 // console.log(typeof num); // bigint
+
+
+// null
+let weather = null;
+console.log(weather);
+
+// console.log(typeof weather); // object
