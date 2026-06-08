@@ -56,3 +56,18 @@ console.log(c); // 20
 
 
 // ******************************************************************************************************
+
+
+
+
+// Datatypes
+
+// Primitive Datatypes:-
+// number, string, boolean, undefined, bigint, null, symbol
+
+// number
+let a1 = 10;
+let b1 = 2.36;
+console.log(a1, b1);
+
+// console.log(typeof a1); // number
