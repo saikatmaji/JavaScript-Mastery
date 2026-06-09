@@ -141,3 +141,11 @@ let obj = {
 }
 
 // console.log(typeof obj); // object
+
+
+// function
+let s = function add(){
+    console.log("Hello World");
+}
+
+console.log(typeof s);
