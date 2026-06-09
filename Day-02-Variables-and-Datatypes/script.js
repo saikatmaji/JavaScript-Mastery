@@ -130,3 +130,14 @@ let arr = [10,20,11,"Saikat",true];
 console.log(arr);
 
 // console.log(typeof arr); // object
+
+
+// object
+let obj = {
+    name:"Saikat",
+    account:12312,
+    age:23,
+    category:'gen'
+}
+
+// console.log(typeof obj); // object
