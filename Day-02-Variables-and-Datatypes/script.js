@@ -148,4 +148,4 @@ let s = function add(){
     console.log("Hello World");
 }
 
-console.log(typeof s);
+console.log(typeof s); // function
