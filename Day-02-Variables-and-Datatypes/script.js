@@ -62,7 +62,7 @@ console.log(c); // 20
 
 // Datatypes
 
-// Primitive Datatypes:-
+// ***Primitive Datatypes:-
 // number, string, boolean, undefined, bigint, null, symbol
 
 // number
@@ -118,3 +118,15 @@ const id1 = Symbol("id");
 console.log(id1);
 
 // console.log(typeof id1); // symbol
+
+
+
+
+// ***Non-Primitive Datatypes:-
+// array, object, function
+
+// array
+let arr = [10,20,11,"Saikat",true];
+console.log(arr);
+
+// console.log(typeof arr); // object
