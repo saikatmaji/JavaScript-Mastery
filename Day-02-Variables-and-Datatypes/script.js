@@ -149,3 +149,15 @@ let s = function add(){
 }
 
 console.log(typeof s); // function
+
+
+
+
+// ***Primitive Datatype is immutable
+let num1 = 10;
+num1 = 20;
+
+let str = "Saikat";
+str = "Raj";
+
+console.log(str);
