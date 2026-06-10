@@ -169,3 +169,24 @@ let pm = cm;
 
 pm = 20;
 console.log(cm,pm);
+
+
+
+
+// ***Non-primitive datatype is mutable
+let arr1 = [10,20,30,40,50];
+
+arr1.push(100);
+arr1[0] = 70;
+
+console.log(arr1);
+
+
+let obj1 ={
+    name:"Mohan",
+    age:20
+}
+
+obj1.name = "Rohan";
+
+console.log(obj1);
