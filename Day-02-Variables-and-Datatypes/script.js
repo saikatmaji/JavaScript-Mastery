@@ -161,3 +161,11 @@ let str = "Saikat";
 str = "Raj";
 
 console.log(str);
+
+
+// copy by value or pass by value method followed in Primitive
+let cm = 10;
+let pm = cm; 
+
+pm = 20;
+console.log(cm,pm);
