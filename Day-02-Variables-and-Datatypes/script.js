@@ -160,7 +160,7 @@ num1 = 20;
 let str = "Saikat";
 str = "Raj";
 
-console.log(str);
+console.log(str); // Raj
 
 
 // copy by value or pass by value method followed in Primitive
@@ -168,7 +168,7 @@ let cm = 10;
 let pm = cm; 
 
 pm = 20;
-console.log(cm,pm);
+console.log(cm,pm); // 10 20
 
 
 
@@ -179,7 +179,7 @@ let arr1 = [10,20,30,40,50];
 arr1.push(100);
 arr1[0] = 70;
 
-console.log(arr1);
+console.log(arr1); // [ 70, 20, 30, 40, 50, 100 ]
 
 
 let obj1 ={
@@ -189,4 +189,17 @@ let obj1 ={
 
 obj1.name = "Rohan";
 
-console.log(obj1);
+console.log(obj1); // { name: 'Rohan', age: 20 }
+
+
+// pass by reference method followed in Primitive
+let object ={
+    name:"Saikat",
+    age:20
+}
+
+let object2 = object;
+
+object2.name = "Raj";
+
+console.log(object);
