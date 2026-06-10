@@ -202,4 +202,4 @@ let object2 = object;
 
 object2.name = "Raj";
 
-console.log(object);
+console.log(object); // { name: 'Raj', age: 20 }
