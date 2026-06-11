@@ -4,3 +4,4 @@
 
 - ✅ How RAM, Hard Disk, and CPU work together.
 - ✅ What Byte-Addressable Memory is.
+- ✅ Understanding Memory Addresses.
