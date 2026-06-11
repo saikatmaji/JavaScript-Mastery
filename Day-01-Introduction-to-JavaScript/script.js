@@ -1,1 +1,1 @@
-console.log("Hello from Node.js");
+console.log("Used Node.js to run JavaScript code outside the browser");
