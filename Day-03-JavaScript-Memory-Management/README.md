@@ -8,3 +8,4 @@
 - ✅ Introduction to Stack and Heap Memory.
 - ✅ Fixed vs Dynamic Memory Allocation.
 - ✅ How JavaScript allocates memory.
+- ✅ Memory Allocation for Primitive and Non-Primitive Data Types.
