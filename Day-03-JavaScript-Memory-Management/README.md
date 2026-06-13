@@ -7,3 +7,4 @@
 - ✅ Understanding Memory Addresses.
 - ✅ Introduction to Stack and Heap Memory.
 - ✅ Fixed vs Dynamic Memory Allocation.
+- ✅ How JavaScript allocates memory.
