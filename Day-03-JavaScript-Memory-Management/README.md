@@ -10,3 +10,4 @@
 - ✅ How JavaScript allocates memory.
 - ✅ Memory Allocation for Primitive and Non-Primitive Data Types.
 - ✅ Garbage Collection in JavaScript.
+- ✅ Loop Optimization.
