@@ -4,3 +4,5 @@
 
 - ✅ RAM, Hard Disk, and CPU interaction.
 - ✅ Byte-Addressable Memory.
+- ✅ Memory Addresses and Address Sizes.
+- ✅ How Programs Access Memory.
