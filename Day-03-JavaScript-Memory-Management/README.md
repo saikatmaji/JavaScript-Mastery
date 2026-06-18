@@ -12,3 +12,4 @@
 - ✅ Garbage Collection in JavaScript.
 - ✅ Loop Optimization.
 - ✅ Small Integers (SMIs) vs Larger Numbers.
+- ✅ JavaScript Memory Management Overview.
