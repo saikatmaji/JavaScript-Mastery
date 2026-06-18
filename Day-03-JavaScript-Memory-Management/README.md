@@ -11,3 +11,4 @@
 - ✅ Memory Allocation for Primitive and Non-Primitive Data Types.
 - ✅ Garbage Collection in JavaScript.
 - ✅ Loop Optimization.
+- ✅ Small Integers (SMIs) vs Larger Numbers.
