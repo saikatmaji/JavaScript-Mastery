@@ -13,3 +13,4 @@
 - ✅ JavaScript Memory Allocation.
 - ✅ Primitive vs Non-Primitive Memory Storage.
 - ✅ Memory Optimization for Special Values.
+- ✅ Garbage Collection in JavaScript.
