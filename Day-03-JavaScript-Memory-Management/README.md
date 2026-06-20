@@ -12,3 +12,4 @@
 - ✅ Dynamic Data Types in JavaScript.
 - ✅ JavaScript Memory Allocation.
 - ✅ Primitive vs Non-Primitive Memory Storage.
+- ✅ Memory Optimization for Special Values.
