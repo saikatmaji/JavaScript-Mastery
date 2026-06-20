@@ -11,3 +11,4 @@
 - ✅ Why Addresses are Stored in Stack.
 - ✅ Dynamic Data Types in JavaScript.
 - ✅ JavaScript Memory Allocation.
+- ✅ Primitive vs Non-Primitive Memory Storage.
