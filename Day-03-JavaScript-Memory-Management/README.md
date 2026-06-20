@@ -10,3 +10,4 @@
 - ✅ Fixed vs Dynamic Memory Allocation.
 - ✅ Why Addresses are Stored in Stack.
 - ✅ Dynamic Data Types in JavaScript.
+- ✅ JavaScript Memory Allocation.
