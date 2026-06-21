@@ -16,3 +16,4 @@
 - ✅ Garbage Collection in JavaScript.
 - ✅ Loop Optimization.
 - ✅ Data Encoding in Memory.
+- ✅ SMIs vs Larger Numbers.
