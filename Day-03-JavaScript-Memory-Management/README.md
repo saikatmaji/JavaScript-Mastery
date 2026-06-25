@@ -6,3 +6,6 @@
 - ✅ Byte-Addressable Memory.
 - ✅ Memory Addresses and Address Sizes.
 - ✅ How Programs Access Memory.
+- ✅ Stack and Heap Memory.
+- ✅ Fixed vs Dynamic Memory Allocation.
+- ✅ Why Addresses are Stored in Stack.
