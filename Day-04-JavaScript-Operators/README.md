@@ -8,3 +8,4 @@
 - ✅ Logical Operators
 - ✅ Unary Operators
 - ✅ Ternary Operator
+- ✅ Typeof Operator
