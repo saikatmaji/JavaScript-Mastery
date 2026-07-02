@@ -8,5 +8,5 @@
 - ✅ Logical Operators
 - ✅ Unary Operators
 - ✅ Ternary Operator
-- ✅ Typeof Operator
+- ✅ TypeOf Operator
 - ✅ InstanceOf Operator
