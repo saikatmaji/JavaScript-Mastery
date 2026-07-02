@@ -6,3 +6,5 @@
 - ✅ Comparison Operators
 - ✅ Assignment Operators
 - ✅ Logical Operators
+- ✅ Unary Operators
+- ✅ Ternary Operator
