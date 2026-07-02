@@ -9,4 +9,4 @@
 - ✅ Unary Operators
 - ✅ Ternary Operator
 - ✅ Typeof Operator
-- ✅ Instanceof Operator
+- ✅ InstanceOf Operator
