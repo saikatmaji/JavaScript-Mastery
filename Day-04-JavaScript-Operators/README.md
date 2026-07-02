@@ -1,4 +1,4 @@
-# Day 02 – JavaScript Operators
+# Day 04 – JavaScript Operators
 
 ## **📘 What I Learned Today**
 
