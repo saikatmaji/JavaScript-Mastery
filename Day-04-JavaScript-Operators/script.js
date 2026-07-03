@@ -118,3 +118,36 @@
 // Less Than or Equal To (<=)
 
 // 32 <= 32      // true
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Assignment Operators
+// =========================================
+
+// Assignment operators are used to assign and update values.
+
+// Operators:
+// =   Assignment
+// +=  Add and Assign
+// -=  Subtract and Assign
+// *=  Multiply and Assign
+// /=  Divide and Assign
+// %=  Modulus and Assign
+
+
+let a = 12;
+
+a += 3;  // 15
+a -= 11; // 4
+a *= 2;  // 8
+a /= 2;  // 4
+a %= 3;  // 1
+
+console.log(a); // 1
