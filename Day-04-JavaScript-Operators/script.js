@@ -296,3 +296,43 @@ console.log(b); // 14
 
 
 12 > 13 ? console.log("true") : console.log("false");
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// typeof and instanceof
+// =========================================
+
+// typeof
+
+// The typeof operator is mainly used with primitive values.
+// It returns the data type of a value.
+
+// typeof null            // "object"
+// typeof []              // "object"
+// typeof {}              // "object"
+// typeof function() {}   // "function"
+// typeof NaN             // "number"
+
+
+// instanceof
+
+// The instanceof operator is mainly used with reference values.
+// It checks whether an object is an instance of a specific constructor.
+
+let a = [];
+
+// a instanceof Array    // true
+// a instanceof Object   // true
+
+
+let b = {};
+
+// b instanceof Array    // false
+// b instanceof Object   // true
