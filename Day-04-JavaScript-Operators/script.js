@@ -156,3 +156,50 @@ console.log(a); // 1
 
 
 // ******************************************************************************************************
+
+
+
+
+// =========================================
+// Logical Operators
+// =========================================
+
+// Logical operators are used to combine or invert conditions.
+
+// Operators:
+// &&  Logical AND
+// ||  Logical OR
+// !   Logical NOT
+
+
+// Logical AND (&&)
+
+// Returns true only if both conditions are true.
+
+// true && true     // true
+// true && false    // false
+// false && true    // false
+// false && false   // false
+
+// 12 > 13 && 13 > 11   // false
+
+
+// Logical OR (||)
+
+// Returns true if at least one condition is true.
+
+// true || true     // true
+// true || false    // true
+// false || true    // true
+// false || false   // false
+
+// 12 > 13 || 13 > 11   // true
+
+
+// Logical NOT (!)
+
+// Reverses the boolean value.
+
+// !false       // true
+// !12          // false
+// !undefined   // true
