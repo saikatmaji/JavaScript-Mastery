@@ -276,3 +276,25 @@ let b = 15;
 --b;
 
 console.log(b); // 14
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Ternary Operator
+// =========================================
+
+// The ternary operator is a shorthand for an if...else statement.
+
+// Syntax:
+// condition ? expressionIfTrue : expressionIfFalse
+
+
+12 > 13
+  ? console.log("true")
+  : console.log("false");
