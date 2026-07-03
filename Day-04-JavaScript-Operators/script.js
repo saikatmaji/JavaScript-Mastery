@@ -295,6 +295,4 @@ console.log(b); // 14
 // condition ? expressionIfTrue : expressionIfFalse
 
 
-12 > 13
-  ? console.log("true")
-  : console.log("false");
+12 > 13 ? console.log("true") : console.log("false");
