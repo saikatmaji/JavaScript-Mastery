@@ -203,3 +203,76 @@ console.log(a); // 1
 // !false       // true
 // !12          // false
 // !undefined   // true
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Unary Operators
+// =========================================
+
+// Unary operators work with a single operand.
+
+// Operators:
+// +       Unary Plus
+// -       Unary Minus
+// !       Logical NOT
+// typeof  Type Operator
+// ++      Increment
+// --      Decrement
+
+
+// Unary Plus (+)
+
+// Converts a value into a number.
+
+// +"5"       // 5
+// +"harsh"   // NaN
+
+
+// Unary Minus (-)
+
+// Converts a value into a negative number.
+
+// -"5"       // -5
+
+
+// Logical NOT (!)
+
+// Reverses the boolean value.
+
+// !12        // false
+
+
+// Typeof Operator
+
+// Returns the data type of a value.
+
+// typeof 12      // "number"
+
+
+// Pre-Increment (++)
+
+// Increases the value by 1 before using it.
+
+let a = 12;
+
+++a;
+
+console.log(a); // 13
+
+
+// Pre-Decrement (--)
+
+// Decreases the value by 1 before using it.
+
+let b = 15;
+
+--b;
+
+console.log(b); // 14
