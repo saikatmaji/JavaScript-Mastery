@@ -11,3 +11,4 @@ A structured journey to learn and master JavaScript from fundamentals to advance
 - Day 02 – Variables and Datatypes – [Source Code](./Day-02-Variables-and-Datatypes/README.md)
 - Day 03 – JavaScript Memory Management – [Source Code](./Day-03-JavaScript-Memory-Management/README.md)
 - Day 04 – JavaScript Operators – [Source Code](./Day-04-JavaScript-Operators/README.md)
+- Day 05 – JavaScript Control Flow – [Source Code](./Day-05-JavaScript-Control-Flow/README.md)
