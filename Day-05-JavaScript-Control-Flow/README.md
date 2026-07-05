@@ -5,3 +5,4 @@
 - ✅ If...Else Statements
 - ✅ Else If Ladder
 - ✅ Switch Case
+- ✅ Early Return Pattern
