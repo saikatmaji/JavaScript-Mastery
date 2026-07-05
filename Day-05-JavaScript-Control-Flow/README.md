@@ -4,3 +4,4 @@
 
 - ✅ If...Else Statements
 - ✅ Else If Ladder
+- ✅ Switch Case
