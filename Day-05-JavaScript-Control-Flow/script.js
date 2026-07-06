@@ -65,3 +65,23 @@ switch (3) {
   default:
     console.log("Invalid Choice");
 }
+
+
+
+
+// =========================================
+// Early Return Pattern
+// =========================================
+
+// The early return pattern exits a function as soon as a condition is met, making the code cleaner and easier to read.
+
+// Example
+function getVal(val) {
+  if (val < 25) return "D";
+  if (val < 50) return "C";
+  if (val < 75) return "B";
+
+  return "A";
+}
+
+console.log(getVal(89)); // A
