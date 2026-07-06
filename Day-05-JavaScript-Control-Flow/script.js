@@ -38,3 +38,30 @@ if (marks >= 90) {
 } else {
   console.log("Fail");
 }
+
+
+
+
+// =========================================
+// Switch Statement
+// =========================================
+
+// The switch statement is used to execute different blocks of code based on the value of an expression.
+
+// Example
+switch (3) {
+  case 1:
+    console.log("Hurrah1");
+    break;
+
+  case 2:
+    console.log("Hurrah2");
+    break;
+
+  case 3:
+    console.log("Hurrah3");
+    break;
+
+  default:
+    console.log("Invalid Choice");
+}
