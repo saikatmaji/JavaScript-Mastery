@@ -85,3 +85,30 @@ do {
   console.log(i);
   i++;
 } while (i <= 20);
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Break Statement
+// =========================================
+
+
+// The break statement is used to immediately terminate a loop when a specified condition is met.
+
+
+// Example:
+// Print numbers from 1 to 200, but stop the loop when the number reaches 32.
+
+for (let i = 1; i <= 200; i++) {
+  console.log(i);
+
+  if (i === 32) {
+    break;
+  }
+}
