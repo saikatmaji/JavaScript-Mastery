@@ -19,3 +19,35 @@
 for (let i = 1; i <= 100; i++) {
   console.log(i);
 }
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// While Loop
+// =========================================
+
+// The while loop is used when the number of iterations is not known in advance. It continues to execute as long as the condition is true.
+
+// Syntax:
+// initialization;
+// while (condition) {
+//   // code to execute
+//   increment/decrement;
+// }
+
+
+// Example:
+// Print numbers from 1 to 32
+
+let i = 1;
+
+while (i <= 32) {
+  console.log(i);
+  i++;
+}
