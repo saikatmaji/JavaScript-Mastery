@@ -46,12 +46,12 @@ for (let i = 1; i <= 100; i++) {
 // Example:
 // Print numbers from 1 to 32
 
-let i = 1;
+// let i = 1;
 
-while (i <= 32) {
-  console.log(i);
-  i++;
-}
+// while (i <= 32) {
+//   console.log(i);
+//   i++;
+// }
 
 
 
@@ -79,12 +79,12 @@ while (i <= 32) {
 // Example:
 // Print numbers from 1 to 20
 
-let i = 1;
+// let i = 1;
 
-do {
-  console.log(i);
-  i++;
-} while (i <= 20);
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 20);
 
 
 
@@ -105,13 +105,13 @@ do {
 // Example:
 // Print numbers from 1 to 200, but stop the loop when the number reaches 32.
 
-for (let i = 1; i <= 200; i++) {
-  console.log(i);
+// for (let i = 1; i <= 200; i++) {
+//   console.log(i);
 
-  if (i === 32) {
-    break;
-  }
-}
+//   if (i === 32) {
+//     break;
+//   }
+// }
 
 
 
@@ -132,10 +132,10 @@ for (let i = 1; i <= 200; i++) {
 // Example:
 // Print numbers from 1 to 200, but skip the number 32.
 
-for (let i = 1; i <= 200; i++) {
-  if (i === 32) {
-    continue;
-  }
+// for (let i = 1; i <= 200; i++) {
+//   if (i === 32) {
+//     continue;
+//   }
 
-  console.log(i);
-}
+//   console.log(i);
+// }
