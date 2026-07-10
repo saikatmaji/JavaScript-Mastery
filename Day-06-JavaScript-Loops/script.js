@@ -112,3 +112,30 @@ for (let i = 1; i <= 200; i++) {
     break;
   }
 }
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Continue Statement
+// =========================================
+
+
+// The continue statement is used to skip the current iteration and move to the next iteration of the loop.
+
+
+// Example:
+// Print numbers from 1 to 200, but skip the number 32.
+
+for (let i = 1; i <= 200; i++) {
+  if (i === 32) {
+    continue;
+  }
+
+  console.log(i);
+}
