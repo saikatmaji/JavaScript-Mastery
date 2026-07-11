@@ -5,3 +5,5 @@
 - ✅ Function Use Cases
 - ✅ Function Creation
 - ✅ Parameters vs Arguments
+- ✅ Default Parameters
+- ✅ Rest Parameters
