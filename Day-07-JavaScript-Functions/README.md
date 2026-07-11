@@ -11,3 +11,7 @@
 - ✅ First-Class Functions
 - ✅ Higher-Order Functions
 - ✅ Pure vs Impure Functions
+- ✅ Closures
+- ✅ Lexical Scoping
+- ✅ IIFE (Immediately Invoked Function Expression)
+- ✅ Function Hoisting Differences
