@@ -82,3 +82,41 @@ const durgaPuja = () => {
 };
 
 durgaPuja(); // Happy Durga Puja
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Parameters and Arguments
+// =========================================
+
+// Parameters are the variables defined in a function.
+// Arguments are the actual values passed when calling a function.
+
+
+
+// Example 1
+function dance(animal) {
+  console.log(`${animal} is dancing`);
+}
+
+dance("Lion");
+dance("Tiger");
+dance("Horse");
+dance("Dog");
+
+
+
+// Example 2
+function add(num1, num2) {
+  console.log(num1 + num2);
+}
+
+add(1, 2);
+add(11, 22);
+add(111, 222);
