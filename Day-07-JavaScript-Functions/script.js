@@ -163,3 +163,28 @@ function login(user = "Anonymous") {
 
 login("Rahul"); // Rahul logged in
 login();        // Anonymous logged in
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Rest Parameters
+// =========================================
+
+// Rest parameters allow a function to accept multiple arguments as a single array.
+
+// The (...) syntax is called the rest operator when used in function parameters.
+
+
+
+// Example
+function printValues(...values) {
+  console.log(values);
+}
+
+printValues(1, 2, 3, 4, 5, 6);
