@@ -99,7 +99,6 @@ durgaPuja(); // Happy Durga Puja
 // Arguments are the actual values passed when calling a function.
 
 
-
 // Example 1
 function dance(animal) {
   console.log(`${animal} is dancing`);
@@ -134,7 +133,6 @@ add(111, 222);
 // =========================================
 
 // Default parameters allow a function to use a default value when no argument is provided during the function call.
-
 
 
 // Example 1
@@ -181,10 +179,33 @@ login();        // Anonymous logged in
 // The (...) syntax is called the rest operator when used in function parameters.
 
 
-
 // Example
 function printValues(...values) {
   console.log(values);
 }
 
 printValues(1, 2, 3, 4, 5, 6);
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Return Values
+// =========================================
+
+// The return statement sends a value back to the place where the function was called.
+
+
+// Example
+function add(value) {
+  return 12 + value;
+}
+
+let result = add(23);
+
+console.log(result); // 35
