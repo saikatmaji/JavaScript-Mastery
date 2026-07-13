@@ -273,3 +273,44 @@ function execute(callback) {
 execute(function () {
   console.log("Hello");
 });
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Pure vs Impure Functions
+// =========================================
+
+// A pure function always produces the same output for the same input and does not modify external state.
+
+
+// Example-
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(5, 10)); // 15
+
+
+
+
+// Example: Impure Function
+
+// An impure function modifies external state or depends on values outside the function.
+
+
+// Example-
+let count = 12;
+
+function increment() {
+  count++;
+}
+
+increment();
+
+console.log(count); // 13
