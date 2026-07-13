@@ -209,3 +209,27 @@ function add(value) {
 let result = add(23);
 
 console.log(result); // 35
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// First-Class Functions
+// =========================================
+
+// In JavaScript, functions are first-class citizens. They can be passed as arguments, returned from functions, and assigned to variables.
+
+
+// Example -
+function execute(callback) {
+  callback();
+}
+
+execute(function () {
+  console.log("Hello");
+});
