@@ -233,3 +233,43 @@ function execute(callback) {
 execute(function () {
   console.log("Hello");
 });
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Higher-Order Functions
+// =========================================
+
+// A Higher-Order Function (HOF) is a function that:
+// 1. Accepts another function as an argument, or
+// 2. Returns another function.
+
+
+
+// Example 1: Returning a Function
+
+function createGreeting() {
+  return function () {
+    console.log("Hey");
+  };
+}
+
+createGreeting()();
+
+
+
+// Example 2: Accepting a Function
+
+function execute(callback) {
+  callback();
+}
+
+execute(function () {
+  console.log("Hello");
+});
