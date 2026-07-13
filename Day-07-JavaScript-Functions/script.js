@@ -383,3 +383,23 @@ function outer() {
 }
 
 outer();
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// ================================================
+// IIFE (Immediately Invoked Function Expression)
+// ================================================
+
+// An IIFE is a function that executes immediately after it is defined. It helps create a private scope and avoids polluting the global namespace.
+
+
+// Example-
+(function () {
+  console.log("Hello from IIFE");
+})();
