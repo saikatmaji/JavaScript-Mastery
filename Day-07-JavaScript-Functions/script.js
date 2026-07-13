@@ -403,3 +403,42 @@ outer();
 (function () {
   console.log("Hello from IIFE");
 })();
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// ======================================================
+// Hoisting: Function Declaration vs Function Expression
+// ======================================================
+
+// Hoisting allows JavaScript to move declarations to the top of their scope before execution.
+
+
+
+// Function Declaration:- Function declarations are fully hoisted, so they can be called before they are defined.
+
+
+// Example-
+sayHello();
+
+function sayHello() {
+  console.log("Hello");
+}
+
+
+
+// Function Expression:- Function expressions are not fully hoisted, so they cannot be called before they are defined.
+
+// Example-
+// greet(); // ❌ ReferenceError
+
+const greet = function () {
+  console.log("Hello");
+};
+
+greet();
