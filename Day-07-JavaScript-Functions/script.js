@@ -342,3 +342,44 @@ function outer() {
 const inner = outer();
 
 inner(); // 12
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Lexical Scoping
+// =========================================
+
+// Lexical scoping means an inner function can access variables from its parent (outer) scope. However, a parent function cannot access variables declared inside its child function.
+
+
+// Example-
+function outer() {
+  let a = 12;
+
+  function middle() {
+    let b = 13;
+
+    function inner() {
+      let c = 14;
+
+      console.log(a); // Accessible
+      console.log(b); // Accessible
+      console.log(c); // Accessible
+    }
+
+    inner();
+  }
+
+  middle();
+
+  // console.log(b); // ❌ Not Accessible
+  // console.log(c); // ❌ Not Accessible
+}
+
+outer();
