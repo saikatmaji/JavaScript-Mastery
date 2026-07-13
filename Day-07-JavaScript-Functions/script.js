@@ -314,3 +314,31 @@ function increment() {
 increment();
 
 console.log(count); // 13
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Closures
+// =========================================
+
+// A closure is created when an inner function remembers and accesses variables from its outer function even after the outer function has finished executing.
+
+
+// Example-
+function outer() {
+  let value = 12;
+
+  return function () {
+    console.log(value);
+  };
+}
+
+const inner = outer();
+
+inner(); // 12
