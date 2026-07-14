@@ -20,3 +20,5 @@
 - ✅ find() Method
 - ✅ some() Method
 - ✅ every() Method
+- ✅ Array Destructuring
+- ✅ Spread Operator
