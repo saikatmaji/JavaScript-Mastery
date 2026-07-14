@@ -17,3 +17,6 @@
 - ✅ map() Method
 - ✅ filter() Method
 - ✅ reduce() Method
+- ✅ find() Method
+- ✅ some() Method
+- ✅ every() Method
