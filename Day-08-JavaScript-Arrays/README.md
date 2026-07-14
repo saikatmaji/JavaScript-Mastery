@@ -11,3 +11,6 @@
 - ✅ shift() Method
 - ✅ splice() Method
 - ✅ slice() Method
+- ✅ reverse() Method
+- ✅ sort() Method
+- ✅ forEach() Method
