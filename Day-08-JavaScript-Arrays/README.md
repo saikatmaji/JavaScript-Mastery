@@ -14,3 +14,6 @@
 - ✅ reverse() Method
 - ✅ sort() Method
 - ✅ forEach() Method
+- ✅ map() Method
+- ✅ filter() Method
+- ✅ reduce() Method
