@@ -8,3 +8,6 @@
 - ✅ push() Method
 - ✅ unshift() Method
 - ✅ pop() Method
+- ✅ shift() Method
+- ✅ splice() Method
+- ✅ slice() Method
