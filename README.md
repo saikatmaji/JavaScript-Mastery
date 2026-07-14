@@ -13,4 +13,5 @@ A structured journey to learn and master JavaScript from fundamentals to advance
 - Day 04 – JavaScript Operators – [Source Code](./Day-04-JavaScript-Operators/README.md)
 - Day 05 – JavaScript Control Flow – [Source Code](./Day-05-JavaScript-Control-Flow/README.md)
 - Day 06 – JavaScript Loops – [Source Code](./Day-06-JavaScript-Loops/README.md)
-- Day 07 – JavaScript Functions – [Source Code](./Day-07-JavaScript-Functions/README.md) 
+- Day 07 – JavaScript Functions – [Source Code](./Day-07-JavaScript-Functions/README.md)
+- Day 08 – JavaScript Arrays – [Source Code](./Day-08-JavaScript-Arrays/README.md)
