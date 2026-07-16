@@ -160,3 +160,31 @@ let arr5 = [1, 2, 3, 4, 5];
 arr5.shift();
 
 console.log(arr5); // [2, 3, 4, 5]
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// splice() Method
+// =========================================
+
+// The splice() method removes, replaces, or adds elements in an array.
+
+let arr6 = [1, 2, 3, 4, 5];
+
+// Syntax:
+// array.splice(startIndex, deleteCount);
+
+// Remove 2 elements starting from index 2.
+
+
+
+// Example-
+arr6.splice(2, 2);
+
+console.log(arr6); // [1, 2, 5]
