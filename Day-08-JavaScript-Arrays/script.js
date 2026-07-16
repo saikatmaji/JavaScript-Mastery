@@ -188,3 +188,30 @@ let arr6 = [1, 2, 3, 4, 5];
 arr6.splice(2, 2);
 
 console.log(arr6); // [1, 2, 5]
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// slice() Method
+// =========================================
+
+// The slice() method returns a shallow copy of a portion of an array without modifying the original array.
+
+let arr7 = [1, 2, 3, 4, 5];
+
+// Syntax:
+// array.slice(startIndex, endIndex);
+
+// Create a new array from index 0 to 2.
+// (The end index is not included.)
+
+let newArr1 = arr7.slice(0, 3);
+
+console.log(newArr1); // [1, 2, 3]
+console.log(arr7);    // [1, 2, 3, 4, 5]
