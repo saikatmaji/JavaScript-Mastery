@@ -215,3 +215,26 @@ let newArr1 = arr7.slice(0, 3);
 
 console.log(newArr1); // [1, 2, 3]
 console.log(arr7);    // [1, 2, 3, 4, 5]
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// reverse() Method
+// =========================================
+
+// The reverse() method reverses the order of the elements in an array.
+
+
+
+// Example-
+let arr8 = [1, 2, 3, 4, 5];
+
+arr8.reverse();
+
+console.log(arr8); // [5, 4, 3, 2, 1]
