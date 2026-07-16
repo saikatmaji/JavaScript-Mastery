@@ -46,3 +46,25 @@ console.log(marks[4]); // 92
 // Accessing an index that does not exist returns undefined.
 
 console.log(marks[10]); // undefined
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Modifying Arrays
+// =========================================
+
+// Array elements can be modified by assigning a new value to an index.
+
+let arr1 = [1, 2, 3, 4];
+
+// Modify the element at index 2
+
+arr1[2] = 12;
+
+console.log(arr1); // [1, 2, 12, 4]
