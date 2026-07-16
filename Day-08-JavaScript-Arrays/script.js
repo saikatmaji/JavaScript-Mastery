@@ -132,8 +132,31 @@ console.log(arr3); // [7000, 1, 2, 3, 4, 5]
 
 
 // Example-
-let arr = [1, 2, 3, 4, 5];
+let arr4 = [1, 2, 3, 4, 5];
 
-arr.pop();
+arr4.pop();
 
-console.log(arr); // [1, 2, 3, 4]
+console.log(arr4); // [1, 2, 3, 4]
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// shift() Method
+// =========================================
+
+// The shift() method removes the first element from an array.
+
+
+
+// Example-
+let arr5 = [1, 2, 3, 4, 5];
+
+arr5.shift();
+
+console.log(arr5); // [2, 3, 4, 5]
