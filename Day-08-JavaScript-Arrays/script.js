@@ -383,3 +383,33 @@ let newArr5 = arr11.filter(function (value) {
 });
 
 console.log(newArr5); // [5, 6, 7, 8]
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// reduce() Method
+// =========================================
+
+// The reduce() method reduces an array to a single value by applying a callback function to each element.
+
+// Syntax:
+// array.reduce(function (accumulator, value) {
+//   return updatedAccumulator;
+// }, initialValue);
+
+
+
+// Example
+let arr12 = [1, 2, 3, 4, 5, 6];
+
+let sum = arr12.reduce(function (accumulator, value) {
+  return accumulator + value;
+}, 0);
+
+console.log(sum); // 21
