@@ -283,3 +283,33 @@ let names = ["Zara", "Arjun", "Mira", "Bhavya"];
 names.sort();
 
 console.log(names); // ["Arjun", "Bhavya", "Mira", "Zara"]
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// forEach() Method
+// =========================================
+
+// The forEach() method executes a callbackfunction once for each element in an array.
+
+
+
+// Example
+let arr9 = [11, 62, 3, 4, 25];
+
+arr9.forEach(function (value) {
+  console.log(value + 5);
+});
+
+// Output:
+// 16
+// 67
+// 8
+// 9
+// 30
