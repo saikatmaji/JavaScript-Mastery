@@ -413,3 +413,28 @@ let sum = arr12.reduce(function (accumulator, value) {
 }, 0);
 
 console.log(sum); // 21
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// find() Method
+// =========================================
+
+// The find() method returns the first element that satisfies the given condition. If no element matches, it returns undefined.
+
+
+
+// Example
+let arr13 = [1, 2, 3, 1, 4, 5, 6];
+
+let result1 = arr13.find(function (value) {
+  return value === 1;
+});
+
+console.log(result1); // 1
