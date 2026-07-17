@@ -313,3 +313,39 @@ arr9.forEach(function (value) {
 // 8
 // 9
 // 30
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// map() Method
+// =========================================
+
+// The map() method creates a new array by applying a callback function to each element of the original array. It always returns a new array.
+
+
+
+// Example 1
+let arr10 = [11, 62, 3, 4, 25];
+
+let newArr2 = arr10.map(function (value) {
+  return 12;
+});
+
+console.log(newArr2); // [12, 12, 12, 12, 12]
+
+
+
+// Example 2
+let newArr3 = arr10.map(function (value) {
+  if (value > 10) {
+    return value;
+  }
+});
+
+console.log(newArr3); // [11, 62, undefined, undefined, 25]
