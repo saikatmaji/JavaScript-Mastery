@@ -514,3 +514,72 @@ let [a, b, , c] = arr16;
 console.log(a); // 1
 console.log(b); // 2
 console.log(c); // 4
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Spread Operator (...)
+// =========================================
+
+// The spread operator (...) expands the elements of an array or the properties of an object.
+
+// It is commonly used to copy, merge, and update arrays and objects without modifying the original data.
+
+
+
+// Copying an Array
+
+let arr17 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+let arr18 = [...arr17];
+
+arr18.pop();
+
+console.log(arr17); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+console.log(arr18); // [1, 2, 3, 4, 5, 6, 7, 8]
+
+
+
+// Merging Arrays
+
+const firstArray = [1, 2];
+const secondArray = [3, 4];
+
+const mergedArray = [...firstArray, ...secondArray];
+
+console.log(mergedArray); // [1, 2, 3, 4]
+
+
+
+// Copying an Object
+
+const user1 = {
+  name: "Saikat",
+  age: 24,
+};
+
+const copiedUser = { ...user1 };
+
+console.log(copiedUser); // { name: "Saikat", age: 24 }
+
+
+
+// Updating an Object
+
+const user2 = {
+  name: "Saikat",
+  age: 24,
+};
+
+const updatedUser = {
+  ...user2,
+  age: 25,
+};
+
+console.log(updatedUser); // { name: "Saikat", age: 25 }
