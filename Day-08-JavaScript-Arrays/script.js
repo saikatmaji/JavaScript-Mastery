@@ -492,3 +492,25 @@ let allMatch = arr15.every(function (value) {
 console.log(allMatch); // true
 
 // value > 15  // false
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Array Destructuring
+// =========================================
+
+// Array destructuring allows you to extract values from an array and assign them to individual variables.
+
+let arr16 = [1, 2, 3, 4, 5];
+
+let [a, b, , c] = arr16;
+
+console.log(a); // 1
+console.log(b); // 2
+console.log(c); // 4
