@@ -238,3 +238,48 @@ let arr8 = [1, 2, 3, 4, 5];
 arr8.reverse();
 
 console.log(arr8); // [5, 4, 3, 2, 1]
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// sort() Method
+// =========================================
+
+// The sort() method sorts the elements of an array. For numeric sorting, use a compare function.
+
+
+
+// Example 1: Sorting Numbers
+let numbers = [11, 62, 3, 4, 25];
+
+
+// Ascending Order
+numbers.sort(function (a, b) {
+  return a - b;
+});
+
+console.log(numbers); // [3, 4, 11, 25, 62]
+
+
+// Descending Order
+numbers.sort(function (a, b) {
+  return b - a;
+});
+
+console.log(numbers); // [62, 25, 11, 4, 3]
+
+
+
+
+// Example 2: Sorting Strings
+let names = ["Zara", "Arjun", "Mira", "Bhavya"];
+
+names.sort();
+
+console.log(names); // ["Arjun", "Bhavya", "Mira", "Zara"]
