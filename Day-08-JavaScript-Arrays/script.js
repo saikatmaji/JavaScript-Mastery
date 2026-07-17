@@ -349,3 +349,37 @@ let newArr3 = arr10.map(function (value) {
 });
 
 console.log(newArr3); // [11, 62, undefined, undefined, 25]
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// filter() Method
+// =========================================
+
+// The filter() method creates a new array containing only the elements that satisfy the given condition. It returns a new array of matching elements.
+
+
+
+// Example 1
+let arr11 = [1, 2, 3, 4, 5, 6, 7, 8];
+
+let newArr4 = arr11.filter(function (value) {
+  return true;
+});
+
+console.log(newArr4); // [1, 2, 3, 4, 5, 6, 7, 8]
+
+
+
+// Example 2
+let newArr5 = arr11.filter(function (value) {
+  return value > 4;
+});
+
+console.log(newArr5); // [5, 6, 7, 8]
