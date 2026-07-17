@@ -438,3 +438,57 @@ let result1 = arr13.find(function (value) {
 });
 
 console.log(result1); // 1
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// some() Method
+// =========================================
+
+// The some() method checks whether at least one element satisfies the given condition. It returns true if a match is found, otherwise it returns false.
+
+
+
+// Example
+let arr14 = [10, 30, 32, 90];
+
+let hasValue = arr14.some(function (value) {
+  return value > 85;
+});
+
+console.log(hasValue); // true
+
+// value > 90  // false
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// every() Method
+// =========================================
+
+// The every() method checks whether all elements satisfy the given condition. It returns true if every element matches, otherwise it returns false.
+
+
+
+// Example
+let arr15 = [10, 30, 32, 90];
+
+let allMatch = arr15.every(function (value) {
+  return value > 5;
+});
+
+console.log(allMatch); // true
+
+// value > 15  // false
