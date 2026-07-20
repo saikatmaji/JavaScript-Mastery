@@ -4,3 +4,5 @@
 
 - ✅ Arrays vs Objects
 - ✅ Creating and Accessing Objects
+- ✅ Object Key-Value Structure
+- ✅ Dot Notation vs Bracket Notation
