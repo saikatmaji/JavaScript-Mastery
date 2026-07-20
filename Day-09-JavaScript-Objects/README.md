@@ -15,3 +15,4 @@
 - ✅ Copying Objects with `Object.assign()`
 - ✅ Deep Cloning Objects
 - ✅ Optional Chaining
+- ✅ Computed Properties
