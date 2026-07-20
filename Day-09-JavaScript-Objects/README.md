@@ -11,3 +11,5 @@
 - ✅ Iterating Objects with `for...in`
 - ✅ Using `Object.keys()`
 - ✅ Using `Object.entries()`
+- ✅ Copying Objects with Spread Operator
+- ✅ Copying Objects with `Object.assign()`
