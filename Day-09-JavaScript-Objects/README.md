@@ -7,3 +7,4 @@
 - ✅ Object Key-Value Structure
 - ✅ Dot Notation vs Bracket Notation
 - ✅ Nested Objects and Deep Access
+- ✅ Object Destructuring
