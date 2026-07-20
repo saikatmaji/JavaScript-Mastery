@@ -9,3 +9,5 @@
 - ✅ Nested Objects and Deep Access
 - ✅ Object Destructuring
 - ✅ Iterating Objects with `for...in`
+- ✅ Using `Object.keys()`
+- ✅ Using `Object.entries()`
