@@ -155,3 +155,37 @@ const user1 = {
 // Deep Access
 
 console.log(user1.address.location.lng); // 77.4
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Object Destructuring
+// =========================================
+
+// Object destructuring allows you to extract properties from an object and assign them to individual variables.
+
+const user2 = {
+  name: "Harsh",
+  address: {
+    city: "Bhopal",
+    pin: 462001,
+    location: {
+      lat: 23.2,
+      lng: 77.4,
+    },
+  },
+};
+
+
+// Extract properties from the nested object.
+
+let { lat, lng } = user2.address.location;
+
+console.log(lat); // 23.2
+console.log(lng); // 77.4
