@@ -122,3 +122,36 @@ console.log(student4.name); // Harsh
 // Bracket Notation
 
 console.log(student4["name"]); // Harsh
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Nested Objects and Deep Access
+// =========================================
+
+// Objects can contain other objects. This is called nested objects.
+
+const user1 = {
+  name: "Harsh",
+  address: {
+    city: "Bhopal",
+    pin: 462001,
+    location: {
+      lat: 23.2,
+      lng: 77.4,
+    },
+  },
+};
+
+
+
+
+// Deep Access
+
+console.log(user1.address.location.lng); // 77.4
