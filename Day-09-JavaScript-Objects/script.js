@@ -15,14 +15,14 @@ let students = ["Rahul", "Aman", "Priya"];
 
 
 // Object
-let student = {
+let student1 = {
   name: "Rahul",
   age: 21,
   city: "Kolkata",
 };
 
 console.log(students);
-console.log(student);
+console.log(student1);
 
 
 
@@ -38,7 +38,7 @@ console.log(student);
 
 // Objects are created using key-value pairs.
 
-let student = {
+let student2 = {
   name: "Saikat",
   age: 23,
   college: "BCREC",
@@ -49,15 +49,15 @@ let student = {
 // Accessing Object Properties
 
 // Method 1: Dot Notation
-console.log(student.name);     // Saikat
-console.log(student.age);      // 23
-console.log(student.college);  // BCREC
+console.log(student2.name);     // Saikat
+console.log(student2.age);      // 23
+console.log(student2.college);  // BCREC
 
 
 // Method 2: Bracket Notation
-console.log(student["name"]);     // Saikat
-console.log(student["age"]);      // 23
-console.log(student["college"]);  // BCREC
+console.log(student2["name"]);     // Saikat
+console.log(student2["age"]);      // 23
+console.log(student2["college"]);  // BCREC
 
 
 
@@ -69,3 +69,29 @@ let key = "name";
 
 console.log(student.key);   // undefined
 console.log(student[key]);  // Saikat
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Object Key-Value Structure
+// =========================================
+
+// Objects store data as key-value pairs.
+
+let student3 = {
+  name: "Harsh",
+  age: 23,
+};
+
+// Key-Value Pairs
+// "name" -> Key
+// "Harsh" -> Value
+
+// "age" -> Key
+// 23 -> Value
