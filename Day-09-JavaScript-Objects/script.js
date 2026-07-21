@@ -95,3 +95,30 @@ let student3 = {
 
 // "age" -> Key
 // 23 -> Value
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Dot Notation vs Bracket Notation
+// =========================================
+
+let student4 = {
+  name: "Harsh",
+};
+
+// Dot Notation
+
+console.log(student4.name); // Harsh
+
+
+
+
+// Bracket Notation
+
+console.log(student4["name"]); // Harsh
