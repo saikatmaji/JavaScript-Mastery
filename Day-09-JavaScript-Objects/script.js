@@ -206,17 +206,41 @@ console.log(lng); // 77.4
 
 
 // Example-
-let user = {
+let user3 = {
   name: "Harsh",
   age: 26,
   email: "test@test.com",
 };
 
-for (let key in user) {
-  console.log(key, user[key]);
+for (let key in user3) {
+  console.log(key, user3[key]);
 }
 
 // Output:
 // name Harsh
 // age 26
 // email test@test.com
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Using Object.keys()
+// =========================================
+
+// The Object.keys() method returns an array of all the keys in an object.
+
+
+// Example-
+let user4 = {
+  name: "Harsh",
+  age: 26,
+  email: "test@test.com",
+};
+
+console.log(Object.keys(user4)); // ["name", "age", "email"]
