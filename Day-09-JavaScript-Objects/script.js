@@ -135,8 +135,10 @@ console.log(student4["name"]); // Harsh
 // Nested Objects and Deep Access
 // =========================================
 
-// Objects can contain other objects. This is called nested objects.
+// Nested Objects- Objects can contain other objects. This is called nested objects.
 
+
+// Example-
 const user1 = {
   name: "Harsh",
   address: {
@@ -154,6 +156,7 @@ const user1 = {
 
 // Deep Access
 
+// Example-
 console.log(user1.address.location.lng); // 77.4
 
 
@@ -244,3 +247,34 @@ let user4 = {
 };
 
 console.log(Object.keys(user4)); // ["name", "age", "email"]
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Using Object.entries()
+// =========================================
+
+// The Object.entries() method returns an array of key-value pairs from an object.
+
+
+// Example-
+let user5 = {
+  name: "Harsh",
+  age: 26,
+  email: "test@test.com",
+};
+
+console.log(Object.entries(user5));
+
+// Output:
+// [
+//   ["name", "Harsh"],
+//   ["age", 26],
+//   ["email", "test@test.com"]
+// ]
