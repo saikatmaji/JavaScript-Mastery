@@ -189,3 +189,34 @@ let { lat, lng } = user2.address.location;
 
 console.log(lat); // 23.2
 console.log(lng); // 77.4
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Iterating Objects with for...in
+// =========================================
+
+// The for...in loop is used to iterate over the keys of an object.
+
+
+// Example-
+let user = {
+  name: "Harsh",
+  age: 26,
+  email: "test@test.com",
+};
+
+for (let key in user) {
+  console.log(key, user[key]);
+}
+
+// Output:
+// name Harsh
+// age 26
+// email test@test.com
