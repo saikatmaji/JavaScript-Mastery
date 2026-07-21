@@ -23,3 +23,49 @@ let student = {
 
 console.log(students);
 console.log(student);
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Creating and Accessing Objects
+// =========================================
+
+// Objects are created using key-value pairs.
+
+let student = {
+  name: "Saikat",
+  age: 23,
+  college: "BCREC",
+};
+
+
+
+// Accessing Object Properties
+
+// Method 1: Dot Notation
+console.log(student.name);     // Saikat
+console.log(student.age);      // 23
+console.log(student.college);  // BCREC
+
+
+// Method 2: Bracket Notation
+console.log(student["name"]);     // Saikat
+console.log(student["age"]);      // 23
+console.log(student["college"]);  // BCREC
+
+
+
+// Dynamic Property Access
+
+// Bracket notation is useful when the property name is stored in a variable.
+
+let key = "name";
+
+console.log(student.key);   // undefined
+console.log(student[key]);  // Saikat
