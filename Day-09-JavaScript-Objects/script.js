@@ -475,3 +475,40 @@ let user9 = {
 // With Optional Chaining
 
 console.log(user9?.addresses?.city); // undefined
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Computed Properties
+// =========================================
+
+// Computed properties allow you to use the value of a variable as an object key.
+
+let role = "admin";
+
+let user10 = {
+  name: "Harsh",
+  age: 26,
+  email: "test@test.com",
+  address: {
+    city: "Bhopal",
+  },
+  [role]: "Harsh",
+};
+
+console.log(user10);
+
+// Output:
+// {
+//   name: "Harsh",
+//   age: 26,
+//   email: "test@test.com",
+//   address: { city: "Bhopal" },
+//   admin: "Harsh"
+// }
