@@ -311,3 +311,54 @@ console.log(copiedUser1);
 //   age: 26,
 //   email: "test@test.com"
 // }
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Copying Objects with Object.assign()
+// =========================================
+
+// The Object.assign() method creates a shallow copy of an object or merges multiple objects.
+
+let user7 = {
+  name: "Harsh",
+  age: 26,
+  email: "test@test.com",
+};
+
+
+
+// Copying an Object
+
+let copiedUser2 = Object.assign({}, user7);
+
+console.log(copiedUser2);
+
+// Output:
+// {
+//   name: "Harsh",
+//   age: 26,
+//   email: "test@test.com"
+// }
+
+
+
+// Copying and Adding New Properties
+
+let updatedUser = Object.assign({ price: Infinity }, user7);
+
+console.log(updatedUser);
+
+// Output:
+// {
+//   price: Infinity,
+//   name: "Harsh",
+//   age: 26,
+//   email: "test@test.com"
+// }
