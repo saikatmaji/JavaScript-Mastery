@@ -362,3 +362,80 @@ console.log(updatedUser);
 //   age: 26,
 //   email: "test@test.com"
 // }
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Deep Cloning Objects
+// =========================================
+
+// A shallow copy copies only the top-level properties. Nested objects are still shared by reference.
+
+// A deep clone creates a completely independent copy, including all nested objects.
+
+let user8 = {
+  name: "Harsh",
+  age: 26,
+  email: "test@test.com",
+  address: {
+    city: "Bhopal",
+  },
+};
+
+
+
+// Shallow Copy (Spread Operator)
+
+let copiedUser3 = { ...user8 };
+
+copiedUser3.address.city = "Indore";
+
+console.log(copiedUser3);
+// {
+//   name: "Harsh",
+//   age: 26,
+//   email: "test@test.com",
+//   address: { city: "Indore" }
+// }
+
+console.log(user8);
+// {
+//   name: "Harsh",
+//   age: 26,
+//   email: "test@test.com",
+//   address: { city: "Indore" }
+// }
+
+// The original object is also modified because the nested object is copied by reference.
+
+
+
+// Deep Clone
+
+let clonedUser = JSON.parse(JSON.stringify(user8));
+
+clonedUser.address.city = "Mumbai";
+
+console.log(clonedUser);
+// {
+//   name: "Harsh",
+//   age: 26,
+//   email: "test@test.com",
+//   address: { city: "Mumbai" }
+// }
+
+console.log(user8);
+// {
+//   name: "Harsh",
+//   age: 26,
+//   email: "test@test.com",
+//   address: { city: "Indore" }
+// }
+
+// The original object remains unchanged because the nested object is deeply cloned.
