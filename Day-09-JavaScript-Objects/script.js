@@ -278,3 +278,36 @@ console.log(Object.entries(user5));
 //   ["age", 26],
 //   ["email", "test@test.com"]
 // ]
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Copying Objects with Spread Operator
+// =========================================
+
+// The spread operator (...) creates a shallow copy of an object.
+
+
+// Example-
+let user6 = {
+  name: "Harsh",
+  age: 26,
+  email: "test@test.com",
+};
+
+let copiedUser1 = { ...user6 };
+
+console.log(copiedUser1);
+
+// Output:
+// {
+//   name: "Harsh",
+//   age: 26,
+//   email: "test@test.com"
+// }
