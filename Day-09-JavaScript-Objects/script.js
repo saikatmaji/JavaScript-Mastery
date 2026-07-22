@@ -439,3 +439,39 @@ console.log(user8);
 // }
 
 // The original object remains unchanged because the nested object is deeply cloned.
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Optional Chaining (?.)
+// =========================================
+
+// Optional chaining (?.) safely accesses nested object properties. If a property does not exist, it returns undefined instead of throwing an error.
+
+let user9 = {
+  name: "Harsh",
+  age: 26,
+  email: "test@test.com",
+  address: {
+    city: "Bhopal",
+  },
+};
+
+
+// Without Optional Chaining
+
+// console.log(user9.addresses.city);
+// ❌ Error: Cannot read properties of undefined
+
+
+
+
+// With Optional Chaining
+
+console.log(user9?.addresses?.city); // undefined
