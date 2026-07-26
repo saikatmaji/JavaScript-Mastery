@@ -8,3 +8,4 @@
 - ✅ Selecting Elements with `getElementsByClassName()`
 - ✅ Selecting Elements with `querySelector()`
 - ✅ Selecting Elements with `querySelectorAll()`
+- ✅ Accessing and Updating Text Content
