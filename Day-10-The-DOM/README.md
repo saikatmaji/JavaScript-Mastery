@@ -10,3 +10,4 @@
 - ✅ Selecting Elements with `querySelectorAll()`
 - ✅ Accessing and Updating Text Content
 - ✅ Attribute Manipulation
+- ✅ Dynamic DOM Manipulation
