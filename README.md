@@ -18,3 +18,4 @@ A structured journey to learn and master JavaScript from fundamentals to advance
 - Day 09 – JavaScript Objects – [Source Code](./Day-09-JavaScript-Objects/README.md)
 
 ### JavaScript in the Browser
+- Day 10 – The DOM – [Source Code](./Day-10-The-DOM/README.md)
