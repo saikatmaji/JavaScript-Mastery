@@ -6,3 +6,5 @@
 - ✅ DOM Manipulation Basics
 - ✅ Selecting Elements with `getElementById()`
 - ✅ Selecting Elements with `getElementsByClassName()`
+- ✅ Selecting Elements with `querySelector()`
+- ✅ Selecting Elements with `querySelectorAll()`
