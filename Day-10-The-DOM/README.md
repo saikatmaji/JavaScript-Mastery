@@ -12,3 +12,4 @@
 - ✅ Attribute Manipulation
 - ✅ Dynamic DOM Manipulation
 - ✅ Updating Styles with the `style` Property
+- ✅ Updating Styles with `classList`
