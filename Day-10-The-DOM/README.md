@@ -11,3 +11,4 @@
 - ✅ Accessing and Updating Text Content
 - ✅ Attribute Manipulation
 - ✅ Dynamic DOM Manipulation
+- ✅ Updating Styles with the `style` Property
