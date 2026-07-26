@@ -4,3 +4,5 @@
 
 - ✅ What the DOM is
 - ✅ DOM Manipulation Basics
+- ✅ Selecting Elements with `getElementById()`
+- ✅ Selecting Elements with `getElementsByClassName()`
