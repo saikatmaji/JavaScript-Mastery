@@ -1,4 +1,4 @@
-# Day 09 – The DOM
+# Day 10 – The DOM
 
 ## **📘 What I Learned Today**
 
