@@ -77,3 +77,24 @@ console.dir(heading1);
 
 
 // ******************************************************************************************************
+
+
+
+
+// ================================================
+// Selecting Elements with getElementsByClassName()
+// ================================================
+
+// The getElementsByClassName() method selects all elements that have the specified class name.
+
+// It returns a live HTMLCollection.
+let elements = document.getElementsByClassName("abcd");
+
+
+// Display the HTMLCollection.
+console.dir(elements);
+
+
+
+
+// ******************************************************************************************************
