@@ -287,3 +287,34 @@ heading6.remove();
 
 
 // ******************************************************************************************************
+
+
+
+
+// =========================================
+// Updating Styles with the style Property
+// =========================================
+
+// JavaScript can be used to update the CSS styles of HTML elements.
+
+// There are two common ways to update styles:
+// 1. Using the style property
+// 2. Using classList (Recommended)
+
+
+
+// 1. Using the style Property
+
+// The style property is used to change individual CSS properties directly from JavaScript.
+
+let heading7 = document.querySelector("h1");
+
+heading7.style.color = "orangered";
+heading7.style.backgroundColor = "dodgerblue";
+heading7.style.fontFamily = "Fantasy";
+heading7.style.textTransform = "capitalize";
+
+
+
+
+// ******************************************************************************************************
