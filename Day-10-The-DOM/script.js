@@ -234,3 +234,56 @@ heading4.removeAttribute("style");
 
 
 // ******************************************************************************************************
+
+
+
+
+// =========================================
+// Dynamic DOM Manipulation
+// =========================================
+
+// Dynamic DOM Manipulation allows you to create, insert, and remove HTML elements using JavaScript.
+
+// Common methods:
+// 1. createElement()
+// 2. append() & prepend()
+// 3. remove()
+
+
+
+// 1. createElement()
+
+// The createElement() method creates a new HTML element.
+
+let heading5 = document.createElement("h1");
+
+
+
+// 2. append() & prepend()
+
+// append() inserts an element at the end of the parent element.
+
+// prepend() inserts an element at the beginning of the parent element.
+
+let body = document.querySelector("body");
+
+heading5.textContent = "Hello Ji Kaise Ho";
+
+body.prepend(heading5);   // Insert at the beginning
+
+// body.append(heading5); // Insert at the end
+
+
+
+// 3. remove()
+
+// The remove() method removes an element from the DOM.
+
+let heading6 = document.querySelector("h2");
+
+heading6.remove();
+
+
+
+
+// ******************************************************************************************************
