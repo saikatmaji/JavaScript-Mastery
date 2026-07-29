@@ -139,3 +139,48 @@ console.dir(headings);
 
 
 // ******************************************************************************************************
+
+
+
+
+// =========================================
+// Accessing and Updating Text Content
+// =========================================
+
+// There are three common ways to access and update the content of an element:
+// 1. innerText
+// 2. textContent
+// 3. innerHTML
+
+
+
+// 1. innerText
+
+// The innerText property gets or sets only the visible text of an element.
+
+let heading3 = document.querySelector("h1");
+
+heading3.innerText = "Hello Harsh, Kaise Ho?";
+
+
+
+// 2. textContent
+
+// The textContent property gets or sets all text inside an element, including hidden text.
+
+// It is generally faster than innerText.
+
+heading3.textContent = "Harsh Badhiya Hai";
+
+
+
+// 3. innerHTML
+
+// The innerHTML property gets or sets the HTML content inside an element.
+
+heading3.innerHTML = "<i>Hey</i>";
+
+
+
+
+// ******************************************************************************************************
