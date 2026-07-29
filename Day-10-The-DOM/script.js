@@ -318,3 +318,40 @@ heading7.style.textTransform = "capitalize";
 
 
 // ******************************************************************************************************
+
+
+
+
+// =========================================
+// Updating Styles with classList
+// =========================================
+
+// The classList property is used to add, remove, or toggle CSS classes on an HTML element.
+
+// This is the recommended way to update styles in real-world projects.
+
+let heading8 = document.querySelector("h1");
+
+
+
+// add()
+
+// Adds a class if it does not already exist.
+
+heading8.classList.add("highlight");
+
+
+
+// remove()
+
+// Removes a class if it exists.
+
+// heading8.classList.remove("highlight");
+
+
+
+// toggle()
+
+// Adds the class if it doesn't exist. Removes the class if it already exists.
+
+// heading8.classList.toggle("highlight");
