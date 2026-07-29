@@ -52,3 +52,28 @@
 
 
 // ******************************************************************************************************
+
+
+
+
+// =========================================
+// Selecting Elements with getElementById()
+// =========================================
+
+// The getElementById() method selects an element using its unique id.
+
+let heading1 = document.getElementById("abcd");
+
+
+// Display the selected element.
+
+console.log(heading1);
+
+// Display the DOM object with all its properties.
+
+console.dir(heading1);
+
+
+
+
+// ******************************************************************************************************
