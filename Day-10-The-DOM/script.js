@@ -29,3 +29,26 @@
 
 
 // ******************************************************************************************************
+
+
+
+
+// =========================================
+// DOM Manipulation Basics
+// =========================================
+
+// DOM Manipulation is the process of using JavaScript to access, modify, create, or remove HTML elements on a webpage dynamically.
+
+
+// To learn DOM Manipulation, you should understand:
+// 1. Selecting HTML elements
+// 2. Changing text content
+// 3. Changing HTML content
+// 4. Changing CSS styles
+// 5. Modifying attributes
+// 6. Adding event listeners
+
+
+
+
+// ******************************************************************************************************
