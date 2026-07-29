@@ -98,3 +98,44 @@ console.dir(elements);
 
 
 // ******************************************************************************************************
+
+
+
+
+// =========================================
+// Selecting Elements with querySelector()
+// =========================================
+
+// The querySelector() method selects the first element that matches the specified CSS selector.
+
+let heading2 = document.querySelector("h1");
+
+
+// Display the selected element.
+console.dir(heading2);
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// ===========================================
+// Selecting Elements with querySelectorAll()
+// ===========================================
+
+// The querySelectorAll() method selects all elements that match the specified CSS selector.
+
+// It returns a static NodeList.
+let headings = document.querySelectorAll("h1");
+
+
+// Display the NodeList.
+console.dir(headings);
+
+
+
+
+// ******************************************************************************************************
