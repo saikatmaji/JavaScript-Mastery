@@ -184,3 +184,53 @@ heading3.innerHTML = "<i>Hey</i>";
 
 
 // ******************************************************************************************************
+
+
+
+
+// =========================================
+// Attribute Manipulation
+// =========================================
+
+// There are three common methods for working with HTML attributes:
+// 1. setAttribute()
+// 2. getAttribute()
+// 3. removeAttribute()
+
+
+
+// 1. setAttribute()
+
+// The setAttribute() method sets or updates the value of an attribute.
+
+let image = document.querySelector("img");
+
+image.setAttribute(
+  "src",
+  "https://images.unsplash.com/photo-1780552274457-b4d8da874f96?q=80&w=1170&auto=format&fit=crop"
+);
+
+
+
+// 2. getAttribute()
+
+// The getAttribute() method returns the value of an attribute.
+
+let anchor = document.querySelector("a");
+
+console.log(anchor.getAttribute("href"));
+
+
+
+// 3. removeAttribute()
+
+// The removeAttribute() method removes an attribute from an element.
+
+let heading4 = document.querySelector("h1");
+
+heading4.removeAttribute("style");
+
+
+
+
+// ******************************************************************************************************
