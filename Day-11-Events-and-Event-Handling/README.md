@@ -14,3 +14,5 @@
 - ✅ Handling Form `submit` Events
 - ✅ Handling `mouseover` and `mouseout` Events
 - ✅ Handling the `mousemove` Event
+- ✅ Understanding the Event Object (`target`)
+- ✅ Understanding the Event Object (`type`)
