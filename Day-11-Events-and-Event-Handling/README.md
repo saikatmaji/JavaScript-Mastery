@@ -16,3 +16,4 @@
 - ✅ Handling the `mousemove` Event
 - ✅ Understanding the Event Object (`target`)
 - ✅ Understanding the Event Object (`type`)
+- ✅ Using `preventDefault()`
