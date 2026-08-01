@@ -19,3 +19,4 @@ A structured journey to learn and master JavaScript from fundamentals to advance
 
 ### JavaScript in the Browser
 - Day 10 – The DOM – [Source Code](./Day-10-The-DOM/README.md)
+- Day 11 – Events and Event Handling – [Source Code](./Day-11-Events-and-Event-Handling/README.md)
