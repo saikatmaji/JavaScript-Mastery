@@ -18,3 +18,4 @@
 - ✅ Understanding the Event Object (`type`)
 - ✅ Using `preventDefault()`
 - ✅ Event Bubbling
+- ✅ Event Capturing
