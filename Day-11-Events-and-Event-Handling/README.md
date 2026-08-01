@@ -12,3 +12,5 @@
 - ✅ Handling the `keyup` Event
 - ✅ Handling `click` and `change` Events
 - ✅ Handling Form `submit` Events
+- ✅ Handling `mouseover` and `mouseout` Events
+- ✅ Handling the `mousemove` Event
