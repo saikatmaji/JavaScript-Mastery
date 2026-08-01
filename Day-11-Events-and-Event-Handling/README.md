@@ -10,3 +10,5 @@
 - ✅ Handling the `change` Event
 - ✅ Handling the `keydown` Event
 - ✅ Handling the `keyup` Event
+- ✅ Handling `click` and `change` Events
+- ✅ Handling Form `submit` Events
