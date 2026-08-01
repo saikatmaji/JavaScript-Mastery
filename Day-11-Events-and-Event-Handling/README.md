@@ -8,3 +8,5 @@
 - ✅ Handling the `click` Event
 - ✅ Handling the `input` Event
 - ✅ Handling the `change` Event
+- ✅ Handling the `keydown` Event
+- ✅ Handling the `keyup` Event
