@@ -42,7 +42,6 @@
 
 
 
-
 // =========================================
 // Example 1: Click Event
 // =========================================
@@ -78,14 +77,13 @@ paragraph.addEventListener("dblclick", doubleClick);
 
 
 
-// ===============================================
+// ===================================================
 // Removing Event Listeners with removeEventListener()
-// ===============================================
+// ===================================================
 
 // The removeEventListener() method is used to remove an event listener from an element.
 
-// Note:
-// The same function reference must be passed to both addEventListener() and removeEventListener().
+// Note: The same function reference must be passed to both addEventListener() and removeEventListener().
 
 
 
@@ -151,27 +149,16 @@ heading3.addEventListener("click", singleClick);
 // Handling the input Event
 // =========================================
 
-// The input event is triggered whenever
-// the value of an input field changes.
-// It fires immediately as the user types,
-// deletes, or pastes text.
+// The input event is triggered whenever the value of an input field changes. It fires immediately as the user types, deletes, or pastes text.
 
 
 
-
-// =========================================
 // Syntax
-// =========================================
-
 // element.addEventListener("input", callbackFunction);
 
 
 
-
-// =========================================
 // Example 1: Detect Input Changes
-// =========================================
-
 // This example logs a message every time the user changes the input field.
 
 // let inputBox = document.querySelector("input");
@@ -188,9 +175,9 @@ heading3.addEventListener("click", singleClick);
 
 let inputBox = document.querySelector("input");
 
-function handleInput(event) {
-    if (event.data !== null) {
-        console.log(event.data);
+function handleInput(event1) {
+    if (event1.data !== null) {
+        console.log(event1.data);
     }
 }
 
@@ -227,8 +214,8 @@ inputBox.addEventListener("input", handleInput);
 
 // let selectBox = document.querySelector("select");
 
-// function handleChange(event) {
-//     console.log(event.target.value);
+// function handleChange(event2) {
+//     console.log(event2.target.value);
 // }
 
 // selectBox.addEventListener("change", handleChange);
@@ -240,8 +227,51 @@ inputBox.addEventListener("input", handleInput);
 let selectBox = document.querySelector("select");
 let heading4 = document.querySelector("h3");
 
-function handleDeviceChange(event) {
-    heading4.textContent = `${event.target.value} Device Selected`;
+function handleDeviceChange(event2) {
+    heading4.textContent = `${event2.target.value} Device Selected`;
 }
 
 selectBox.addEventListener("change", handleDeviceChange);
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Handling the keydown Event
+// =========================================
+
+// The keydown event is triggered immediately when a keyboard key is pressed.
+
+
+
+// Syntax
+
+// element.addEventListener("keydown", callbackFunction);
+
+
+
+// Example
+
+// This example displays the key pressed by the user on the screen.
+
+let heading5 = document.querySelector("h1");
+
+function handleKeyDown(event3) {
+    if (event3.key === " ") {
+        heading5.textContent = "SPC";
+    } else {
+        heading5.textContent = event3.key;
+    }
+}
+
+window.addEventListener("keydown", handleKeyDown);
+
+
+
+
+// ******************************************************************************************************
