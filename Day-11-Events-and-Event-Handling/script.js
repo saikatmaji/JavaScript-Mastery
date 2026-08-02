@@ -138,3 +138,60 @@ let singleClick = () => {
 };
 
 heading3.addEventListener("click", singleClick);
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Handling the input Event
+// =========================================
+
+// The input event is triggered whenever
+// the value of an input field changes.
+// It fires immediately as the user types,
+// deletes, or pastes text.
+
+
+
+
+// =========================================
+// Syntax
+// =========================================
+
+// element.addEventListener("input", callbackFunction);
+
+
+
+
+// =========================================
+// Example 1: Detect Input Changes
+// =========================================
+
+// This example logs a message every time the user changes the input field.
+
+// let inputBox = document.querySelector("input");
+
+// function handleInput() {
+//     console.log("Typed");
+// }
+
+// inputBox.addEventListener("input", handleInput);
+
+
+
+// Example 2: Get the Typed Character
+
+let inputBox = document.querySelector("input");
+
+function handleInput(event) {
+    if (event.data !== null) {
+        console.log(event.data);
+    }
+}
+
+inputBox.addEventListener("input", handleInput);
