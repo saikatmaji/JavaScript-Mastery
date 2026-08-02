@@ -512,3 +512,39 @@ function handleMouseMove(event7) {
 }
 
 window.addEventListener("mousemove", handleMouseMove);
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Understanding the Event Object (target)
+// =========================================
+
+// Whenever an event occurs, JavaScript automatically passes an Event Object to the callback function. The Event Object contains useful information about the event, such as the target element, event type, mouse position, keyboard key, and more.
+
+
+
+// Example
+let box3 = document.querySelector("#abcd");
+
+function handleClick(event8) {
+    console.log(event8);
+}
+
+box3.addEventListener("click", handleClick);
+
+
+
+// event.target
+
+// event.target refers to the element on which the event actually occurred. In this example, clicking on <div id="abcd"> makes that div the event.target.
+
+
+
+
+// ******************************************************************************************************
