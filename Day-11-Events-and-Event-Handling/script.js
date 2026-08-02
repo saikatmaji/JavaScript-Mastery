@@ -633,3 +633,114 @@ let click_func = () => {
 }
 
 nav.addEventListener("click", click_func);
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Event Capturing
+// =========================================
+
+
+// Event Capturing is the opposite of Event Bubbling.
+// In Event Bubbling, event moves from inner element to outer element.
+// In Event Capturing, event moves from outer element to inner element.
+
+
+
+// Event Propagation Phases
+
+// Whenever an event occurs, event flow happens in two phases:
+
+// Phase 1 - Capture Phase
+// Event moves from top-level element towards the target element.
+
+// Phase 2 - Bubbling Phase
+// Event moves from target element towards its parent elements.
+
+// By default, capture phase is OFF and bubbling phase is ON.
+
+
+
+// How to Enable Event Capturing?
+
+
+// To enable capture phase, pass "true" as the third argument in addEventListener().
+
+// Syntax:
+// element.addEventListener(
+//     "event",
+//     function,
+//     true
+// );
+
+
+
+// Example
+let a = document.querySelector(".a");
+let b = document.querySelector(".b");
+let c = document.querySelector(".c");
+let btn = document.querySelector("button");
+
+
+
+// Button
+let click_func1 = () => {
+    console.log("button clicked");
+}
+
+btn.addEventListener("click", click_func1);
+
+
+
+// .c / orange
+let click_func2 = () => {
+    console.log("c clicked");
+}
+
+c.addEventListener("click", click_func2);
+
+
+
+// .b / green
+let click_func3 = () => {
+    console.log("b clicked");
+}
+
+b.addEventListener("click", click_func3);
+
+
+
+// .a / aqua
+let click_func4 = () => {
+    console.log("a clicked");
+}
+
+a.addEventListener("click", click_func4, true);
+
+
+
+// Output Flow
+
+// When we click on the button:
+// First capture phase will execute because it is enabled on .a.
+// Then bubbling phase will execute for remaining elements.
+
+// Output order:
+
+// .a  ->  button  ->  c  ->  b
+
+
+
+// Key Points
+
+// - Event Capturing works from parent to child.
+// - It is the first phase of event propagation.
+// - By default, capture phase is disabled.
+// - Passing "true" in addEventListener() enables capture phase.
+// - Bubbling phase is enabled by default.
