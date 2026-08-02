@@ -548,3 +548,31 @@ box3.addEventListener("click", handleClick);
 
 
 // ******************************************************************************************************
+
+
+
+
+// =========================================
+// Understanding the Event Object (type)
+// =========================================
+
+// Whenever an event occurs, JavaScript automatically passes an Event Object to the callback function. The Event Object contains useful information about the event, including its type, target element, mouse position, keyboard key, and more.
+
+
+
+// Example
+
+let box4 = document.querySelector("#abcd");
+
+function handleClick(event9) {
+    console.log(event9);
+}
+
+box4.addEventListener("click", handleClick);
+
+
+
+// event.type
+// event.type returns the type of event that triggered the callback. In this example, clicking on <div id="abcd"> will return "click" as the event type.
+
+// console.log(event9.type); // "click"
