@@ -602,3 +602,34 @@ function handleSubmit(event10) {
 }
 
 form.addEventListener("submit", handleSubmit);
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Event Bubbling
+// =========================================
+
+
+// Event Bubbling is a process in which an event moves from the target element towards its parent elements. If the element where the event occurs does not have an event listener, then the event looks for a listener on its parent element. This process continues moving upwards until it finds a listener or reaches the top-level element.
+
+
+
+// Example
+
+// In this example, when a click event occurs on the nav element:
+// If nav has a click listener, the function will execute.
+// If nav does not have a listener, the event will bubble up and search for a listener on its parent element.
+
+let nav = document.querySelector("#nav");
+
+let click_func = () => {
+    alert("clicked");
+}
+
+nav.addEventListener("click", click_func);
