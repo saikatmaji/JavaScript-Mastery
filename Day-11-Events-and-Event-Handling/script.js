@@ -82,14 +82,10 @@ paragraph.addEventListener("dblclick", doubleClick);
 // Removing Event Listeners with removeEventListener()
 // ===============================================
 
-// The removeEventListener() method is used
-// to remove an event listener from an element.
+// The removeEventListener() method is used to remove an event listener from an element.
 
 // Note:
-// The same function reference must be passed
-// to both addEventListener() and
-// removeEventListener().
-
+// The same function reference must be passed to both addEventListener() and removeEventListener().
 
 
 
@@ -115,3 +111,30 @@ heading2.removeEventListener("dblclick", doubleClick);
 
 
 // ******************************************************************************************************
+
+
+
+
+// =========================================
+// Handling the click Event
+// =========================================
+
+// The click event is triggered when the user clicks on an HTML element.
+
+
+
+// Syntax
+
+// element.addEventListener("click", callbackFunction);
+
+
+
+// Example
+
+let heading3 = document.querySelector("h2");
+
+let singleClick = () => {
+    heading3.style.backgroundColor = "teal";
+};
+
+heading3.addEventListener("click", singleClick);
