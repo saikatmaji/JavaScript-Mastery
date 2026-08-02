@@ -61,13 +61,13 @@ heading.addEventListener("click", singleClick);
 // Example 2: Double Click Event
 // =========================================
 
-let paragraph = document.querySelector("p");
+let paragraph1 = document.querySelector("p");
 
 function doubleClick() {
-    paragraph.style.backgroundColor = "green";
+    paragraph1.style.backgroundColor = "green";
 }
 
-paragraph.addEventListener("dblclick", doubleClick);
+paragraph1.addEventListener("dblclick", doubleClick);
 
 
 
@@ -349,3 +349,88 @@ function handleFileChange(event5) {
 }
 
 fileInput.addEventListener("change", handleFileChange);
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Handling Form submit Events
+// =========================================
+
+// The submit event is triggered when a form is submitted. By default, submitting a form reloads the page. To prevent this behavior, use event.preventDefault().
+
+
+
+// Example 1: Get Form Values
+
+// let form = document.querySelector("form");
+// let inputs = document.querySelectorAll("input");
+
+// function handleSubmit(event6) {
+//     event6.preventDefault();
+
+//     console.log(
+//         inputs[0].value,
+//         inputs[1].value,
+//         inputs[2].value,
+//         inputs[3].value
+//     );
+// }
+
+// form.addEventListener("submit", handleSubmit);
+
+
+
+// Example 2: Create a Profile Card
+
+let form = document.querySelector("form");
+let inputs = document.querySelectorAll("input");
+let main = document.querySelector("#main");
+
+function handleSubmit(event6) {
+    event6.preventDefault();
+
+    // Create Card
+    let card = document.createElement("div");
+    card.classList.add("card");
+
+    // Create Profile Section
+    let profile = document.createElement("div");
+    profile.classList.add("profile");
+
+    let image = document.createElement("img");
+    image.setAttribute("src", inputs[0].value);
+
+    let heading7 = document.createElement("h3");
+    heading7.textContent = inputs[1].value;
+
+    let heading8 = document.createElement("h5");
+    heading8.textContent = inputs[2].value;
+
+    let paragraph2 = document.createElement("p");
+    paragraph2.textContent = inputs[3].value;
+
+    // Append Elements
+    profile.appendChild(image);
+
+    card.appendChild(profile);
+    card.appendChild(heading7);
+    card.appendChild(heading8);
+    card.appendChild(paragraph);
+
+    main.appendChild(card);
+
+    // Clear Input Fields
+    inputs.forEach(function (input) {
+        if (input.type !== "submit") {
+            input.value = "";
+        }
+    });
+}
+
+form.addEventListener("submit", handleSubmit);
