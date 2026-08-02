@@ -467,15 +467,48 @@ form.addEventListener("submit", handleSubmit);
 
 // This example changes the background color of a div when the mouse enters and leaves it.
 
-let box = document.querySelector("#abcd");
+let box1 = document.querySelector("#abcd");
 
 function handleMouseOver() {
-    box.style.backgroundColor = "yellow";
+    box1.style.backgroundColor = "yellow";
 }
 
 function handleMouseOut() {
-    box.style.backgroundColor = "red";
+    box1.style.backgroundColor = "red";
 }
 
-box.addEventListener("mouseover", handleMouseOver);
-box.addEventListener("mouseout", handleMouseOut);
+box1.addEventListener("mouseover", handleMouseOver);
+box1.addEventListener("mouseout", handleMouseOut);
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Handling the mousemove Event
+// =========================================
+
+// The mousemove event is triggered whenever the mouse pointer moves inside the browser window or over a specific element.
+
+
+
+// Syntax
+// element.addEventListener("mousemove", callbackFunction);
+
+
+
+// Example
+// This example moves a red box along with the mouse pointer.
+
+let box2 = document.querySelector("#abcd");
+
+function handleMouseMove(event7) {
+    box2.style.top = event7.clientY + "px";
+    box2.style.left = event7.clientX + "px";
+}
+
+window.addEventListener("mousemove", handleMouseMove);
