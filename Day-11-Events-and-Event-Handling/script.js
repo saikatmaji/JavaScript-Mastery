@@ -368,7 +368,7 @@ fileInput.addEventListener("change", handleFileChange);
 
 // Example 1: Get Form Values
 
-// let form = document.querySelector("form");
+// let form1 = document.querySelector("form");
 // let inputs = document.querySelectorAll("input");
 
 // function handleSubmit(event6) {
@@ -382,14 +382,14 @@ fileInput.addEventListener("change", handleFileChange);
 //     );
 // }
 
-// form.addEventListener("submit", handleSubmit);
+// form1.addEventListener("submit", handleSubmit);
 
 
 
 // Example 2: Create a Profile Card
 
-let form = document.querySelector("form");
-let inputs = document.querySelectorAll("input");
+let form1 = document.querySelector("form");
+let inputs1 = document.querySelectorAll("input");
 let main = document.querySelector("#main");
 
 function handleSubmit(event6) {
@@ -576,3 +576,29 @@ box4.addEventListener("click", handleClick);
 // event.type returns the type of event that triggered the callback. In this example, clicking on <div id="abcd"> will return "click" as the event type.
 
 // console.log(event9.type); // "click"
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Understanding preventDefault()
+// =========================================
+
+// preventDefault() is a method of the Event Object. It is used to stop the default behavior of an HTML element.
+
+
+
+// Example: Prevent Form Reload
+
+let form = document.querySelector("form");
+
+function handleSubmit(event10) {
+    event10.preventDefault();
+}
+
+form.addEventListener("submit", handleSubmit);
