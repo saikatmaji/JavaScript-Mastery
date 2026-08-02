@@ -275,3 +275,45 @@ window.addEventListener("keydown", handleKeyDown);
 
 
 // ******************************************************************************************************
+
+
+
+
+// =========================================
+// Handling the keyup Event
+// =========================================
+
+// The keyup event is triggered when a keyboard key is released.
+
+
+
+// Syntax
+// element.addEventListener("keyup", callbackFunction);
+
+
+
+// Example
+
+// This example displays the key released by the user on the screen.
+
+
+let heading6 = document.querySelector("h1");
+
+function handleKeyUp(event4) {
+    if (event4.key === " ") {
+        heading6.textContent = "SPC";
+    } else {
+        heading6.textContent = event4.key;
+    }
+}
+
+window.addEventListener("keyup", handleKeyUp);
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
