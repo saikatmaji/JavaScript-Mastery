@@ -195,3 +195,53 @@ function handleInput(event) {
 }
 
 inputBox.addEventListener("input", handleInput);
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Handling the change Event
+// =========================================
+
+// The change event is triggered when the value of an input, select, or textarea element changes and the change is confirmed.
+
+// Unlike the input event, the change event does not fire on every keystroke.
+
+
+
+// Syntax
+
+// element.addEventListener("change", callbackFunction);
+
+
+
+
+// Example 1: Get the Selected Value
+
+// This example logs the selected option from a <select> element.
+
+// let selectBox = document.querySelector("select");
+
+// function handleChange(event) {
+//     console.log(event.target.value);
+// }
+
+// selectBox.addEventListener("change", handleChange);
+
+
+
+// Example 2: Update Text Dynamically
+
+let selectBox = document.querySelector("select");
+let heading4 = document.querySelector("h3");
+
+function handleDeviceChange(event) {
+    heading4.textContent = `${event.target.value} Device Selected`;
+}
+
+selectBox.addEventListener("change", handleDeviceChange);
