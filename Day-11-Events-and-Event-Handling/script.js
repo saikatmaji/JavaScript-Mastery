@@ -317,3 +317,35 @@ window.addEventListener("keyup", handleKeyUp);
 
 
 
+// =========================================
+// Handling click and change Events
+// =========================================
+
+// In this example, we create a custom button to replace the default file input button. When the custom button is clicked, it programmatically opens the file picker. After a file is selected, the button text is updated with the selected file name.
+
+
+
+// Step 1: Open the File Picker on Button Click
+
+let newButton = document.querySelector("#btn");
+let fileInput = document.querySelector("input");
+
+function handleButtonClick() {
+    fileInput.click();
+}
+
+newButton.addEventListener("click", handleButtonClick);
+
+
+
+// Step 2: Update Button Text After File Selection
+
+function handleFileChange(event5) {
+    const file = event5.target.files[0];
+
+    if (file) {
+        newButton.textContent = file.name;
+    }
+}
+
+fileInput.addEventListener("change", handleFileChange);
