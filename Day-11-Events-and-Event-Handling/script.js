@@ -434,3 +434,48 @@ function handleSubmit(event6) {
 }
 
 form.addEventListener("submit", handleSubmit);
+
+
+
+
+// ******************************************************************************************************
+
+
+
+
+// =========================================
+// Handling mouseover and mouseout Events
+// =========================================
+
+// The mouseover event is triggered when the mouse pointer enters an element.
+
+// The mouseout event is triggered when the mouse pointer leaves an element.
+
+
+
+
+// =========================================
+// Syntax
+// =========================================
+
+// element.addEventListener("mouseover", callbackFunction);
+// element.addEventListener("mouseout", callbackFunction);
+
+
+
+// Example
+
+// This example changes the background color of a div when the mouse enters and leaves it.
+
+let box = document.querySelector("#abcd");
+
+function handleMouseOver() {
+    box.style.backgroundColor = "yellow";
+}
+
+function handleMouseOut() {
+    box.style.backgroundColor = "red";
+}
+
+box.addEventListener("mouseover", handleMouseOver);
+box.addEventListener("mouseout", handleMouseOut);
