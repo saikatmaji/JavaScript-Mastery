@@ -4,3 +4,4 @@
 
 - ✅ Reading Values from Input Fields
 - ✅ Inline Form Validation
+- ✅ Pattern Attribute Validation
