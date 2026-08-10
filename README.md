@@ -21,3 +21,4 @@ A structured journey to learn and master JavaScript from fundamentals to advance
 - Day 10 – The DOM – [Source Code](./Day-10-The-DOM/README.md)
 - Day 11 – Events and Event Handling – [Source Code](./Day-11-Events-and-Event-Handling/README.md)
 - Day 12 – Forms and Form Handling – [Source Code](./Day-12-Forms-and-Form-Handling/README.md)
+- Day 13 – Timers and Intervals – [Source Code](./Day-13-Timers-and-Intervals/README.md)
