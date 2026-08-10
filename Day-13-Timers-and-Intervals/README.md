@@ -5,3 +5,4 @@
 - ✅ setTimeout()
 - ✅ setInterval()
 - ✅ clearTimeout()
+- ✅ clearInterval()
