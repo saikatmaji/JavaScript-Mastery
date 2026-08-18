@@ -22,3 +22,4 @@ A structured journey to learn and master JavaScript from fundamentals to advance
 - Day 11 – Events and Event Handling – [Source Code](./Day-11-Events-and-Event-Handling/README.md)
 - Day 12 – Forms and Form Handling – [Source Code](./Day-12-Forms-and-Form-Handling/README.md)
 - Day 13 – Timers and Intervals – [Source Code](./Day-13-Timers-and-Intervals/README.md)
+- Day 14 – localStorage, sessionStorage and Cookies – [Source Code](./Day-14-localStorage-sessionStorage-and-Cookies/README.md)
