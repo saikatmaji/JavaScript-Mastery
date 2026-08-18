@@ -3,3 +3,4 @@
 ## 📘 What I Learned Today
 
 - ✅ localStorage
+- ✅ sessionStorage
