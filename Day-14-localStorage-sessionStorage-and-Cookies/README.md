@@ -4,3 +4,4 @@
 
 - ✅ localStorage
 - ✅ sessionStorage
+- ✅ Cookies
