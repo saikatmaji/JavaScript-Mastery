@@ -30,3 +30,25 @@ localStorage.setItem("name", "harsh");
 // setItem() can also be used to update an existing value. If the key already exists, its value will be replaced.
 
 localStorage.setItem("name", "harshita");
+
+
+
+// 3. Fetch Data - getItem()
+
+// getItem() is used to retrieve data from localStorage.
+
+// Syntax:
+// localStorage.getItem(key);
+
+let val = localStorage.getItem("name");
+
+
+
+// 4. Remove Data - removeItem()
+
+// removeItem() is used to remove a specific item from localStorage.
+
+// Syntax:
+// localStorage.removeItem(key);
+
+localStorage.removeItem("name");
