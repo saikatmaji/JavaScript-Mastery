@@ -7,9 +7,9 @@
 // Main Cookie Operations:-
 
 // There are mainly 3 basic operations-
-// 1. Store data   → document.cookie
-// 2. Fetch data   → document.cookie
-// 3. Remove data → document.cookie
+// 1. Store data => document.cookie
+// 2. Fetch data => document.cookie
+// 3. Remove data => document.cookie
 
 
 
