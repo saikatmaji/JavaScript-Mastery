@@ -32,3 +32,16 @@ document.cookie = "name=saikat";
 // document.cookie = "key=value; expires=date";
 
 document.cookie = "username=saikat; expires=Fri, 28 Aug 2026 23:59:59 UTC; path=/";
+
+
+
+// 3. Fetch Data - Reading Cookies
+
+// document.cookie is used to retrieve all cookies available for the current document.
+
+// Syntax:
+// document.cookie;
+
+let cookies = document.cookie;
+
+console.log(cookies);
