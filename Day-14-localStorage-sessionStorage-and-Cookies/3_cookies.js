@@ -21,3 +21,14 @@
 // document.cookie = "key=value";
 
 document.cookie = "name=saikat";
+
+
+
+// 2. Store Cookie with Expiry
+
+// The expires property is used to specify when the cookie should expire.
+
+// Syntax:
+// document.cookie = "key=value; expires=date";
+
+document.cookie = "username=saikat; expires=Fri, 28 Aug 2026 23:59:59 UTC; path=/";
