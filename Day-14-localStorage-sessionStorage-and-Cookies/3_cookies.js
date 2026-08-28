@@ -45,3 +45,14 @@ document.cookie = "username=saikat; expires=Fri, 28 Aug 2026 23:59:59 UTC; path=
 let cookies = document.cookie;
 
 console.log(cookies);
+
+
+
+// 4. Delete Data - Removing a Cookie
+
+// To delete a cookie, we set its expiration date to a past date.
+
+// Syntax:
+// document.cookie = "key=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
+
+document.cookie = "name=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
